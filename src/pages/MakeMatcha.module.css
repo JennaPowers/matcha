@@ -1,0 +1,10 @@
+
+.container {
+    position: relative;
+    height: 1000px;
+    /* background-image: linear-gradient(to bottom right, white, rgb(243, 255, 220)); */
+}
+
+.header {
+    margin-bottom: 6rem;
+}

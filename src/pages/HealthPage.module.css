@@ -1,0 +1,71 @@
+.container {
+  padding-top: 6rem;
+  height: 1000px;
+  background-image: linear-gradient(to bottom right, white, #e1ecd7);
+}
+
+.header {
+  margin-bottom: 10rem;
+}
+
+.image {
+  text-align: center;
+}
+
+.image img {
+  height: 40rem;
+  width: auto;
+}
+
+.bubbles {
+  position: relative;
+}
+
+.bubbles span {
+  font-family: "Dosis", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: .3rem;
+  color: black;
+}
+
+.text_1 {
+  position: absolute;
+  top: -28rem;
+  left: 22rem;
+}
+
+.text_2 {
+  position: absolute;
+  top: -46rem;
+  left: 61rem;
+}
+
+.text_3 {
+  position: absolute;
+  top: -38rem;
+  left: 82rem;
+}
+
+.bubble {
+  height: 6rem;
+  width: auto;
+  opacity: 0.8;
+}
+
+.bubble__1 {
+  position: absolute;
+  top: -25rem;
+  left: 20rem;
+}
+
+.bubble__2 {
+  position: absolute;
+  top: -43rem;
+  left: 60rem;
+}
+
+.bubble__3 {
+  position: absolute;
+  top: -35rem;
+  left: 80rem;
+}

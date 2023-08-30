@@ -1,0 +1,59 @@
+.container {
+  height: 1000px;
+  background-image: linear-gradient(to bottom right, white, #c4ce8e);
+  overflow: hidden;
+}
+
+.logo {
+  margin: 0 2rem;
+}
+
+.body {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blur {
+  height: 45rem;
+  width: 35rem;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 0 3rem 3rem white;
+  opacity: 0.5;
+  position: relative;
+  left: 3rem;
+  bottom: -2rem;
+}
+
+.img {
+  height: 50rem;
+  width: auto;
+  position: relative;
+  top: 5.2rem;
+  right: 32rem;
+  transition: all 400ms;
+
+  animation: moveUp 800ms ease-out;
+}
+
+.img:hover {
+  transform: scale(1.1);
+}
+
+@keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(6rem);
+  }
+
+  80% {
+    transform: translateY(-1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

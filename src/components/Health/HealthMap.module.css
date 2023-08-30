@@ -1,0 +1,145 @@
+.container {
+  text-align: center;
+  position: relative;
+}
+
+.image img {
+  position: relative;
+  height: 40rem;
+  width: auto;
+}
+
+.blur {
+  height: 45rem;
+  width: 35rem;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 0 3rem 3rem white;
+  opacity: 0.6;
+  position: absolute;
+  top: -2rem;
+  left: 34rem;
+}
+
+.stars {
+  position: relative;
+}
+
+.stars span {
+  position: absolute;
+  top: -20rem;
+  left: 20rem;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  color: black;
+}
+
+.star {
+  height: 2.5rem;
+  width: auto;
+}
+
+.hover__1,
+.hover__2 {
+  transform: translate(-0.6rem, -0.6rem);
+  transition: all 400ms;
+  cursor: pointer;
+}
+
+.hover__3 {
+  transform: translate(0, -0.6rem);
+  transition: all 400ms;
+  cursor: pointer;
+}
+
+.hover__4,
+.hover__5 {
+  transform: translate(0.6rem, -0.6rem);
+  transition: all 400ms;
+  cursor: pointer;
+}
+
+.hoverBack__1,
+.hoverBack__2 {
+  transform: translate(0.6rem, 0.6rem);
+  transition: all 600ms;
+}
+
+.hoverBack__3 {
+  transform: translate(0, 0.6rem);
+  transition: all 600ms;
+}
+
+.hoverBack__4,
+.hoverBack__5 {
+  transform: translate(-0.6rem, 0.6rem);
+  transition: all 600ms;
+}
+
+.star1 {
+  position: absolute;
+  top: -31.7rem;
+  left: 38.2rem;
+}
+
+.star__2 {
+  position: absolute;
+  top: -38.7rem;
+  left: 42.7rem;
+}
+
+.star__3 {
+  position: absolute;
+  top: -41.7rem;
+  left: 50.3rem;
+}
+
+.star__4 {
+  position: absolute;
+  top: -38.7rem;
+  left: 58.2rem;
+}
+
+.star__5 {
+  position: absolute;
+  top: -31.7rem;
+  left: 61.2rem;
+}
+
+.background {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  box-shadow: 0 0 0.5rem 0.4rem rgb(203, 203, 203);
+}
+
+.background__1 {
+  position: absolute;
+  top: -32rem;
+  left: 38rem;
+}
+
+.background__2 {
+  position: absolute;
+  top: -39rem;
+  left: 42rem;
+}
+
+.background__3 {
+  position: absolute;
+  top: -42rem;
+  left: 50rem;
+}
+
+.background__4 {
+  position: absolute;
+  top: -39rem;
+  left: 58rem;
+}
+
+.background__5 {
+  position: absolute;
+  top: -32rem;
+  left: 61rem;
+}

@@ -1,0 +1,40 @@
+.container {
+  margin: 0rem 5rem;
+}
+
+.text {
+  font-family: "Dosis", sans-serif;
+  letter-spacing: 1rem;
+  color: black;
+  /* text-shadow: .2rem .2rem .4rem rgb(187, 187, 187); */
+
+  animation-name: moveInLeft;
+  animation-duration: 800ms;
+  animation-timing-function: ease-out;
+}
+
+.text h1 {
+  font-size: 6rem;
+  margin-block-start: 0rem;
+  margin-block-end: 2.4rem;
+}
+
+.text h3 {
+  font-size: 3rem;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-6rem);
+  }
+
+  80% {
+    transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 1;
+   transform: translateX(0);
+  }
+}

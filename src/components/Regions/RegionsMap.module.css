@@ -1,0 +1,52 @@
+.image img {
+  height: 40rem;
+  width: auto;
+}
+
+.pins {
+  position: relative;
+}
+
+.pin {
+  height: 3rem;
+  width: auto;
+}
+
+.pins span {
+  font-family: "Dosis", sans-serif;
+  letter-spacing: 0.6rem;
+  color: black;
+  font-size: 1.4rem;
+  position: absolute;
+  top: -25rem;
+  left: 35rem;
+}
+
+.pin:hover {
+  transform: translate(0.2rem, -0.2rem);
+  transition: all 400ms;
+}
+
+.pin__1 {
+  position: absolute;
+  top: -16.5rem;
+  left: 45rem;
+}
+
+.pin__2 {
+  position: absolute;
+  top: -12.5rem;
+  left: 34.5rem;
+}
+
+.pin__3 {
+  position: absolute;
+  top: -15.5rem;
+  left: 48rem;
+}
+
+.pin__4 {
+  position: absolute;
+  top: -7.5rem;
+  left: 35rem;
+}

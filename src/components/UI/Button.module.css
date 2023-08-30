@@ -1,0 +1,27 @@
+.container {
+  position: relative;
+}
+
+.container button {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  /* border: none; */
+  font-size: 1.5rem;
+}
+
+.container button:hover {
+    cursor: pointer;
+}
+
+.forwardBtn {
+    position: absolute;
+    top: -22rem;
+    right: 5rem;
+}
+
+.backBtn {
+    position: absolute;
+    top: -22rem;
+    left: 5rem;
+}

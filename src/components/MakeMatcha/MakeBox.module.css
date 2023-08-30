@@ -1,0 +1,43 @@
+.container {
+  margin: 0 auto;
+  padding: 2rem 0;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  box-sizing: border-box;
+  height: 80%;
+  width: 75%;
+  border-radius: 10rem;
+  box-shadow: 1rem 1.5rem 1rem 1rem rgb(255, 247, 241);
+  background-image: url('../../images/bamboo2.png');
+}
+
+.container img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.header h3 {
+  font-family: "Dosis", sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  color: black
+}
+
+.body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.body img {
+  height: 30rem;
+}
+
+.body span {
+  font-family: "Dosis", sans-serif;
+  font-size: 2.5rem;
+  color: black; 
+}
+

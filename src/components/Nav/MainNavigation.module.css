@@ -1,0 +1,45 @@
+.header {
+  margin: auto;
+}
+
+.logo {
+  margin: 0 2rem;
+  float: left;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  transform: translateX(-5rem);
+}
+
+.nav li a {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-family: "Dosis", sans-serif;
+  letter-spacing: 0.2rem;
+}
+
+.nav li a:after {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  width: 0;
+  content: ".";
+  color: transparent;
+  background: black;
+  height: 1px;
+}
+
+.nav li a:hover:after {
+  width: 100%;
+}
+
+.nav li a:after {
+    transition: all .5s;
+}
