@@ -1,4 +1,4 @@
-This is a React based app whose sole purpose is to teach the wanderer about the wonderful world of matcha. 
+I built this React based app with the sole purpose to teach the wanderer about the wonderful world of matcha. 
 
 **TRY IT OUT HERE:** [(myikigai.vercel.app)](myikigai.vercel.app)
 
