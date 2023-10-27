@@ -12,6 +12,10 @@
   width: auto;
 }
 
+.pin:hover {
+  cursor: pointer;
+}
+
 .pins span {
   font-family: "Dosis", sans-serif;
   letter-spacing: 0.6rem;
