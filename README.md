@@ -1,8 +1,8 @@
-I built this React based app with the sole purpose to teach the wanderer about the wonderful world of matcha. 
+I built this React app with the sole purpose to teach the wanderer about the wonderful world of matcha. 
 
 **TRY IT OUT HERE:** [myikigai.vercel.app](https://myikigai.vercel.app/)
 
-<img width="1680" alt="Screenshot 2023-08-30 at 4 12 45 PM" src="https://github.com/JennaPowers/matcha/assets/52141497/c919fdf8-49b3-48b6-bc9c-5459e0332dca">
-<img width="1680" alt="Screenshot 2023-08-30 at 4 12 51 PM" src="https://github.com/JennaPowers/matcha/assets/52141497/ed0c2df7-ea45-4c12-a613-23c8e2c37ea8">
-<img width="1680" alt="Screenshot 2023-08-30 at 4 12 58 PM" src="https://github.com/JennaPowers/matcha/assets/52141497/f654b26c-c4c9-40fe-b94d-93cef26eaea4">
-<img width="1680" alt="Screenshot 2023-08-30 at 4 13 07 PM" src="https://github.com/JennaPowers/matcha/assets/52141497/6f6e49f9-2641-41a3-801d-93690080d4de">
+<img width="1680" alt="Screenshot 2023-11-13 at 11 11 27 AM" src="https://github.com/JennaPowers/myikigai/assets/52141497/ce9f564d-0898-4ac3-9a74-57ec29abdf6c">
+<img width="1680" alt="Screenshot 2023-11-13 at 11 11 42 AM" src="https://github.com/JennaPowers/myikigai/assets/52141497/2f857356-70f1-4eec-8ba9-28c5f8b36bbc">
+<img width="1680" alt="Screenshot 2023-11-13 at 11 11 49 AM" src="https://github.com/JennaPowers/myikigai/assets/52141497/5549af2d-3f3f-4f48-9b07-927648bad14c">
+<img width="1680" alt="Screenshot 2023-11-13 at 11 11 56 AM" src="https://github.com/JennaPowers/myikigai/assets/52141497/c8e534fc-9261-4bcc-b94b-34ea7f4d9c86">
