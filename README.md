@@ -1,4 +1,4 @@
-I built this React app with the sole purpose to teach the wanderer about the wonderful world of matcha. 
+I created this React app with a singular objective: to serve as an educational platform, imparting knowledge about the enchanting realm of matcha to curious wanderers.
 
 **TRY IT OUT HERE:** [myikigai.vercel.app](https://myikigai.vercel.app/)
 
