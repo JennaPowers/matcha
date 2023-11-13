@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { Fragment, useState, useEffect, useCallback } from "react";
 
 import Modal from "../UI/Modal";
 import RegionModalContent from "../Regions/RegionModalContent";
@@ -13,7 +13,7 @@ const RegionsModal = (props) => {
   const [selectedRegion, setSelectedRegion] = useState({});
   const [isLoading, setIsLoading] = useState(true);
 
-  const fetchRegionData = async () => {
+  const fetchRegionData = useCallback(async () => {
     const response = await fetch(
       "https://myikigai-99b57-default-rtdb.firebaseio.com/regions.json"
     );
@@ -40,11 +40,11 @@ const RegionsModal = (props) => {
     );
     setSelectedRegion(selectedRegion);
     setIsLoading(false);
-  };
+  }, [props.regionName]);
 
   useEffect(() => {
     fetchRegionData();
-  }, [selectedRegion]);
+  }, [selectedRegion, fetchRegionData]);
 
   const loadingContent = <div className={styles.loading}>Loading...</div>;
 

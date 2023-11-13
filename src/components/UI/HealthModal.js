@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { Fragment, useState, useEffect, useCallback } from "react";
 
 import Modal from "../UI/Modal";
 import HealthModalContent from "../Health/HealthModalContent";
@@ -15,7 +15,7 @@ const HealthModal = (props) => {
   const [selectedBenefit, setSelectedBenefit] = useState({});
   const [isLoading, setIsLoading] = useState(true);
 
-  const fetchHealthData = async () => {
+  const fetchHealthData = useCallback(async () => {
     const response = await fetch(
       "https://myikigai-99b57-default-rtdb.firebaseio.com/health.json"
     );
@@ -42,7 +42,7 @@ const HealthModal = (props) => {
     );
     setSelectedBenefit(selectedBenefit);
     setIsLoading(false);
-  };
+  }, [props.benefit]);
 
   useEffect(() => {
     fetchHealthData();
