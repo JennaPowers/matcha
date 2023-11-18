@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 import Homepage from "./pages/Homepage";
 import RegionsPage from "./pages/RegionsPage";
@@ -9,12 +9,12 @@ import "./App.css";
 
 const App = () => {
   return (
-    <Fragment>
+    <>
       <Homepage />
       <RegionsPage />
       <HealthPage />
       <MakeMatcha />
-    </Fragment>
+    </>
   );
 };
 

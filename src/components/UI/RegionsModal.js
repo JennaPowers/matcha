@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 
 import Modal from "../UI/Modal";
 import RegionModalContent from "../Regions/RegionModalContent";
@@ -7,6 +7,7 @@ import uji from "../../images/uji.png";
 import fukuoka from "../../images/fukuoka.png";
 import kagoshima from "../../images/kagoshima.png";
 import nishio from "../../images/nishio2.png";
+
 import styles from "./RegionsModal.module.css";
 
 const RegionsModal = (props) => {
@@ -66,12 +67,12 @@ const RegionsModal = (props) => {
   );
 
   return (
-    <Fragment>
+    <>
       <Modal onClose={props.onClose}>
         {!isLoading && content}
         {isLoading && loadingContent}
       </Modal>
-    </Fragment>
+    </>
   );
 };
 

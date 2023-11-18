@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import MainText from "../components/MakeMatcha/MakeText";
 import MakeBox from "../components/MakeMatcha/MakeBox";

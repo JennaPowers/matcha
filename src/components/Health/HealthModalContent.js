@@ -10,7 +10,7 @@ const HealthModalContent = (props) => {
             </div>
             <div className={styles.body}>
                 <div className={styles.container__img}>
-                    <img src={props.img}></img>
+                    <img src={props.img} alt="health benefit of matcha"></img>
                 </div>
                 <div className={styles.body__content}>
                     <h3>{`How matcha benefits your ${props.name}`}</h3>

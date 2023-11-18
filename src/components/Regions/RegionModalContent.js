@@ -13,7 +13,7 @@ const RegionModalContent = (props) => {
                     <span>{props.location}</span>
                 </div>
                 <div className={styles.img}>
-                    <img src={props.img}></img>
+                    <img src={props.img} alt="Matcha regio in Japan"></img>
                 </div>
                 <div className={styles.flavorContent}>
                     <h3>Flavor Profile</h3>

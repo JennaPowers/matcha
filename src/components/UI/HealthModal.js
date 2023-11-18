@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 
 import Modal from "../UI/Modal";
 import HealthModalContent from "../Health/HealthModalContent";
@@ -69,12 +69,12 @@ const HealthModal = (props) => {
   );
 
   return (
-    <Fragment>
+    <>
       <Modal onClose={props.onClose}>
         {!isLoading && content}
         {isLoading && loadingContent}
       </Modal>
-    </Fragment>
+    </>
   );
 };
 

@@ -1,4 +1,4 @@
-import React, { useReducer, useState, useEffect } from "react";
+import React, { useReducer, useState } from "react";
 import Button from "../UI/Button";
 
 import sifter from "../../images/sifter.png";
@@ -101,14 +101,15 @@ const MakeBox = () => {
       <div className={styles.body}>
         <img
           src={
-            stepState.stepIndex == 0
+            stepState.stepIndex === 0
               ? sifter
-              : stepState.stepIndex == 1
+              : stepState.stepIndex === 1
               ? teapot
-              : stepState.stepIndex == 2
+              : stepState.stepIndex === 2
               ? whisk
               : hotMatcha
           }
+          alt="make your matcha"
         ></img>
         <span>{stepState.stepData.description}</span>
       </div>

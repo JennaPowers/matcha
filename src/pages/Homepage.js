@@ -15,7 +15,7 @@ const Homepage = () => {
       <div className={styles.body}>
         <MainText className={styles.text} />
         <div className={styles.blur}></div>
-        <img src={leaf} className={styles.img}></img>
+        <img src={leaf} className={styles.img} alt="Leaf"></img>
       </div>
     </div>
   );

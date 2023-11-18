@@ -1,11 +1,12 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React, { useState } from "react";
 
 import matchaGirl from "../../images/matchaGirl.png";
 import heartImg from "../../images/healthImgHeart.png";
 import energyImg from "../../images/healthImgEnergy.png";
 import liverImg from "../../images/healthImgLiver.png";
-import mindImg from '../../images/healthImgMind.png';
-import skinImg from '../../images/healthImgSkin.png';
+import mindImg from "../../images/healthImgMind.png";
+import skinImg from "../../images/healthImgSkin.png";
 
 import styles from "./HealthMap.module.css";
 
@@ -13,8 +14,6 @@ const HealthMap = (props) => {
   const [nameDisplay, setNameDisplay] = useState("");
 
   const onHoverHandler = (healthBenefit) => {
-    // setNameDisplay(healthBenefit);
-
     if (healthBenefit === "Heart") {
       const div = document.querySelector(`.${styles.background__1}`);
       const img = document.querySelector(`.${styles.star}`);
@@ -61,38 +60,38 @@ const HealthMap = (props) => {
       const img = document.querySelector(`.${styles.star}`);
       div.classList.remove(`${styles.hover__1}`);
       img.classList.remove(`${styles.hover__1}`);
-      div.classList.add(`${styles.hoverBack__1}`)
-      img.classList.add(`${styles.hoverBack__1}`)
+      div.classList.add(`${styles.hoverBack__1}`);
+      img.classList.add(`${styles.hoverBack__1}`);
     } else if (healthBenefit === "Energy") {
       const div = document.querySelector(`.${styles.background__2}`);
       const img = document.querySelector(`.${styles.star__2}`);
       div.classList.remove(`${styles.hover__2}`);
       img.classList.remove(`${styles.hover__2}`);
-      div.classList.add(`${styles.hoverBack__2}`)
-      img.classList.add(`${styles.hoverBack__2}`)
+      div.classList.add(`${styles.hoverBack__2}`);
+      img.classList.add(`${styles.hoverBack__2}`);
     } else if (healthBenefit === "Liver") {
       const div = document.querySelector(`.${styles.background__3}`);
       const img = document.querySelector(`.${styles.star__3}`);
       div.classList.remove(`${styles.hover__3}`);
       img.classList.remove(`${styles.hover__3}`);
-      div.classList.add(`${styles.hoverBack__3}`)
-      img.classList.add(`${styles.hoverBack__3}`)
+      div.classList.add(`${styles.hoverBack__3}`);
+      img.classList.add(`${styles.hoverBack__3}`);
     } else if (healthBenefit === "Mind") {
       const div = document.querySelector(`.${styles.background__4}`);
       const img = document.querySelector(`.${styles.star__4}`);
       div.classList.remove(`${styles.hover__4}`);
       img.classList.remove(`${styles.hover__4}`);
-      div.classList.add(`${styles.hoverBack__4}`)
-      img.classList.add(`${styles.hoverBack__4}`)
+      div.classList.add(`${styles.hoverBack__4}`);
+      img.classList.add(`${styles.hoverBack__4}`);
     } else {
       const div = document.querySelector(`.${styles.background__5}`);
       const img = document.querySelector(`.${styles.star__5}`);
       div.classList.remove(`${styles.hover__5}`);
       img.classList.remove(`${styles.hover__5}`);
-      div.classList.add(`${styles.hoverBack__5}`)
-      img.classList.add(`${styles.hoverBack__5}`)
+      div.classList.add(`${styles.hoverBack__5}`);
+      img.classList.add(`${styles.hoverBack__5}`);
     }
-  }
+  };
 
   const onClickHandler = (healthBenefit) => {
     props.onShowModal(healthBenefit);
